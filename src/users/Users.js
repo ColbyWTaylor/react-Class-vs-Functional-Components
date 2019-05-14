@@ -6,10 +6,10 @@ class Users extends Component {
 		return (
 			<div>
 				<h1>{this.props.title}</h1>
-				<User>Colbius</User>
-				<User age="22">Mad</User>
-				<User age="32">Vivius</User>
-				<User age="42">Daemon</User>
+				<User>User without any properties</User>
+				<User age="22">Person 1</User>
+				<User age="32">Persson 2</User>
+				<User age="42">Person 3</User>
 			</div>
 		);
 	}
